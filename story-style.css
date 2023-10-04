@@ -83,3 +83,36 @@ header a {
     margin: 1rem;
     align-self: center;
 }
+
+.flag-icon-background, .flag-icon {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat; }
+
+.flag-icon {
+  position: relative;
+  display: inline-block;
+  width: 1.3333333333em;
+  line-height: 1em; }
+  .flag-icon:before {
+    content: " "; }
+  .flag-icon.flag-icon-squared {
+    width: 1em; }
+
+    .flag-icon-gbr {
+        background-image: url(./flag_icons/gbr.svg); }
+        .flag-icon-gbr.flag-icon-squared {
+         background-image: url(./flag_icons/gbr.svg); }
+
+         .flag-icon-deu {
+            background-image: url(./flag_icons/deu.svg); }
+            .flag-icon-deu.flag-icon-squared {
+              background-image: url(./flag_icons/deu.svg); }
+
+@media only screen and (min-width: 400px) {
+    body{
+        
+    }
+    #introduction{
+    }
+}            
