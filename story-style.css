@@ -81,5 +81,5 @@ header a {
     padding: 1rem;
     text-decoration: none;
     margin: 1rem;
-    justify-content: center;
+    align-self: center;
 }
